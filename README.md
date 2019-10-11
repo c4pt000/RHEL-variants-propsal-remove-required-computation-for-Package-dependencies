@@ -15,3 +15,6 @@ as part of rpmdb(apt-cache) possibly or another downloadable data set type
     it would require a dry run of every known package based per operating system which uses computing resources to
 predetermine a set of packages (within that particular type of package manager) which are required as dependincies 
 as part of the installation process per .
+    hashing the current installed package list as a unique string md5 (or other variants then between the computer's side
+of installed packages checked against the server's side of available prehashed string, the matching strings would allow the
+package manager to just jump ahead to fetch(download) and install the required package configuration requests
