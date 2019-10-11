@@ -12,7 +12,7 @@ the package manager could skip over trying to predetermine which dependent packa
 types of package installations and just move directly to fetching and installing the required packages, 
 as part of rpmdb(apt-cache) possibly or another downloadable data set type
 * it would require a dry run of every known package based per operating system which uses computing resources to predetermine a set of packages (within that particular type of package manager) which are required as dependincies 
-as part of the installation process per .
+as part of the installation process per operating system.
 * hashing the current installed package list as a unique string md5 (or other variants then between the computer's side of installed packages checked against the server's side of available prehashed string, the matching strings would allow the package manager to just jump ahead to fetch(download) and install the required package configuration requests
 * model to build unique strings based on installed packages compared to dependent package requirements for string generation systems that require downloading packages from client to server could assemble unique values of package requirement types
 based on a pass (1) of a successful installation install (from rpmdb's current installed packages as a unique string)
