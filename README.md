@@ -15,5 +15,5 @@ as part of rpmdb(apt-cache) possibly or another downloadable data set type
 as part of the installation process per operating system.
 * hashing the current installed package list as a unique string md5 (or other variants then between the computer's side of installed packages checked against the server's side of available prehashed strings, the matching strings would allow the package manager to just jump ahead to fetch(download) and install the required package configuration requests based on that matching string
 * model to build unique strings based on installed packages compared to dependent package requirements for string generation systems that require downloading packages from client to server could assemble unique values of package requirement types
-based on a pass (1) of a successful installation (from rpmdb's current installed packages as a unique string)
+based on a pass (1) status of a successful installation (from rpmdb's current installed packages as a unique string)
 * a pattern of packages that checkout and install successfully without an error generate a unique string based on that successful package configuration installation and are appended to the server side's database of precomputed package possibilites
